@@ -25,11 +25,11 @@ namespace lab4_3
         private void button1_Click(object sender, EventArgs e)
         {
             lightON = !lightON;
-           
+            flip();
 
         }
 
-        private void label1_Click(object sender, EventArgs e)
+        private void flip()
         {
             if (lightON)
             {
@@ -42,10 +42,36 @@ namespace lab4_3
                 pictureBox2.Visible = true;
             }
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            int myVar = 99;
+            setToZero(ref myVar);
+            MessageBox.Show(myVar.ToString()); //99
+        }
+
+        private void setToZero(ref int number)
+        {
+            number = 0;
+        }
+
+        /*private void label1_Click(object sender, EventArgs e)
+        {
+            if (lightON)
+            {
+                pictureBox1.Visible = true;
+                pictureBox2.Visible = false;
+            }
+            else
+            {
+                pictureBox1.Visible = false;
+                pictureBox2.Visible = true;
+            }
+        }*/
     }
 }
-    }
-}
+
+
 
 /*
 namespace WinFormsApp5

@@ -41,7 +41,7 @@
             // pictureBox1
             // 
             pictureBox1.Image = Properties.Resources.LightOn;
-            pictureBox1.Location = new Point(24, 12);
+            pictureBox1.Location = new Point(61, 12);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(258, 225);
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -54,14 +54,14 @@
             label1.AutoSize = true;
             label1.Location = new Point(309, 280);
             label1.Name = "label1";
-            label1.Size = new Size(38, 15);
+            label1.Size = new Size(41, 15);
             label1.TabIndex = 2;
-            label1.Text = "label1";
+            label1.Text = "switch";
             label1.Click += label1_Click;
             // 
             // button1
             // 
-            button1.Location = new Point(262, 319);
+            button1.Location = new Point(244, 319);
             button1.Name = "button1";
             button1.Size = new Size(75, 23);
             button1.TabIndex = 3;
@@ -71,7 +71,7 @@
             // 
             // button2
             // 
-            button2.Location = new Point(355, 319);
+            button2.Location = new Point(341, 319);
             button2.Name = "button2";
             button2.Size = new Size(75, 23);
             button2.TabIndex = 4;
@@ -82,9 +82,9 @@
             // 
             pictureBox2.BackgroundImageLayout = ImageLayout.Center;
             pictureBox2.Image = Properties.Resources.LightOff;
-            pictureBox2.Location = new Point(355, 12);
+            pictureBox2.Location = new Point(325, 12);
             pictureBox2.Name = "pictureBox2";
-            pictureBox2.Size = new Size(244, 225);
+            pictureBox2.Size = new Size(258, 225);
             pictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox2.TabIndex = 5;
             pictureBox2.TabStop = false;
