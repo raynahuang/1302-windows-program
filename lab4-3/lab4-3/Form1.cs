@@ -35,11 +35,13 @@ namespace lab4_3
             {
                 pictureBox1.Visible = true;
                 pictureBox2.Visible = false;
+                label1.Text = "ON";
             }
             else
             {
                 pictureBox1.Visible = false;
                 pictureBox2.Visible = true;
+                label1.Text = "OFF";
             }
         }
 
@@ -53,6 +55,11 @@ namespace lab4_3
         private void setToZero(ref int number)
         {
             number = 0;
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
 
         /*private void label1_Click(object sender, EventArgs e)
