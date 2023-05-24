@@ -7,16 +7,16 @@ namespace lab4
             InitializeComponent();
         }
 
-        private void label1_Click(object sender, EventArgs e)
+        private void textBox1_TextChanged(object sender, EventArgs e)
         {
 
         }
 
-        private void button1_Click(object sender, EventArgs e)
+
+        private void button1_Click_1(object sender, EventArgs e)
         {
             double speed;
             double hours;
-
             if (double.TryParse(textBox1.Text, out speed) && double.TryParse(textBox2.Text, out hours))
             {
                 // add items to the text box
@@ -35,7 +35,7 @@ namespace lab4
 
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void button2_Click_1(object sender, EventArgs e)
         {
             this.Close();
         }
